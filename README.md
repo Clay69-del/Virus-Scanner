@@ -1,4 +1,3 @@
-```markdown
 # Python Virus Scanner Tool 🔍🛡️
 
 ![Python Version](https://img.shields.io/badge/Python-3.7%2B-blue)
@@ -28,88 +27,7 @@ A lightweight, cross-platform security scanner for detecting system vulnerabilit
    ```bash
    git clone https://github.com/yourusername/python-virus-scanner.git
    cd python-virus-scanner
-   ```
-
-2. **Install dependencies**:
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
-   ```
-   *Requirements:*  
-   ```plaintext
-   psutil
-   colorama
-   schedule
-   ```
 
----
-
-## Usage 🚀
-
-Run the tool:
-```bash
-python virus.py
-```
-
-**Menu Options**:  
-1. **One-Time Scan**: Immediate full system check.  
-2. **Daily Scan**: Automated scans daily at 3:00 AM.  
-3. **Weekly Scan**: Scans every Monday at 3:00 AM.  
-
-**Output**:  
-- Real-time alerts in the console (color-coded warnings).  
-- Detailed logs in `security_scan.log`.  
-- Scan summary in `scan_report.txt`.  
-
-![Demo](https://via.placeholder.com/600x300.png?text=Animated+Scan+Demo) *Replace with actual GIF*
-
----
-
-## Scheduled Scans ⏰  
-To stop scheduled scans, press `Ctrl+C`. The tool will exit gracefully.
-
----
-
-## Report Format 📄  
-Example `scan_report.txt`:  
-```plaintext
-Scan Report - Thu Oct 5 12:00:00 2023
-OS Version: Windows 10
-Suspicious Processes: ["trojan.exe", "malware_app"]
-Disk Space: C:\ (15 GiB free, 9.5%)
-Open Ports: 80, 443, 8080
-```
-
----
-
-## Contributing 🤝  
-Contributions are welcome!  
-1. Fork the repository.  
-2. Create a feature branch (`git checkout -b feature/your-feature`).  
-3. Commit changes (`git commit -m 'Add some feature'`).  
-4. Push to the branch (`git push origin feature/your-feature`).  
-5. Open a Pull Request.
-
----
-
-## License 📜  
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## Notes ⚠️  
-- **Windows-Centric Features**: Dynamic app checks rely on PowerShell and Windows directories.  
-- **Known Malware Signatures**: Includes test signatures like `eicar.com` (non-executable).  
-- **Customize Bad IPs**: Update `known_bad_ips` in `virus.py` for your environment.
-
----
-
-**Crafted with ❤️ by Yogendra Badu**  
-*Credit to `psutil`, `colorama`, and `schedule` libraries.*
-``` 
-
----
-
-### Preview Tips:
-1. Replace the `![Demo]` placeholder with an actual GIF/screenshot of the tool in action.
-2. Update the GitHub clone URL and license file as needed.
-3. Add a "Support" section with contact info if desired.
